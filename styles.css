@@ -36,3 +36,8 @@ body {
 }
 .name {
 }
+
+.navigation-items {
+    display: flex;
+    justify-content: end;
+}
