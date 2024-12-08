@@ -1,3 +1,5 @@
+/*BASE STYLES */
+
 :root {
     padding: 0;
     margin: 0;
@@ -11,4 +13,26 @@ body {
     border-left: 1px solid;
     height: 900px;
     width: 700px;
+}
+
+/* HEADER STYLES */
+
+.information {
+    display: flex;
+    margin-left: 13px;
+    gap: 10px;
+}
+
+.square {
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    height: 20px;
+    width: 24px;
+    margin-top: 9px;
+    background-color: black;
+    border-radius: 7px;
+}
+.name {
 }
